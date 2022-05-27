@@ -1,0 +1,17 @@
+h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+
+}
+li{
+    margin-left: 1rem;
+}
+a{
+    text-decoration: none;
+}
