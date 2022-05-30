@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/37c3bd082c.js"
@@ -16,23 +16,49 @@
       rel="stylesheet"
     />
     <title>Contact</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-              <a href="index.html">
-                  <li>Home</li>
-                </a>
-                <a href="about.html">
-                <li>About</li>
-              </a>
-              <a href="contact.html">
-                <li>Contact</li>
-              </a>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="about.html">
+            <li>About</li>
+          </a>
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
     </header>
     <h2>Contact Page</h2>
-</body>
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input
+        type="text"
+        id="fname"
+        name="firstname"
+        placeholder="Your name.."
+      />
+
+      <label for="lname">Last Name</label>
+      <input
+        type="text"
+        id="lname"
+        name="lastname"
+        placeholder="Your last name.."
+      />
+      <textarea
+        id="w3review"
+        name="w3review"
+        rows="4"
+        cols="50"
+        placeholder="Tell me more..."
+      ></textarea>
+
+      <input type="submit"  onclick="alert('Form Submitted')" value="Submit" />
+    </form>
+  </body>
 </html>

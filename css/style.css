@@ -1,17 +1,81 @@
-h2{
-    font-family: 'PT Sans Narrow', sans-serif;
+body {
+    text-align: center;
+}
+
+h2 {
+  font-family: "PT Sans Narrow", sans-serif;
+  text-align: center;
+}
+nav {
+  text-align: center;
 }
 p {
-    font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
 }
-ul{
-    list-style: none;
-    display: flex;
+img {
+  text-align: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+li {
+  margin-left: 1rem;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #FF0000;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #0000FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
-li{
-    margin-left: 1rem;
+
+input[type="submit"]:hover {
+  background-color: #45a049;
 }
-a{
-    text-decoration: none;
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#image {
+  text-align: center;
 }
