@@ -76,6 +76,10 @@ div {
   background-color: #f2f2f2;
   padding: 20px;
 }
+.listItem {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
 #image {
   text-align: center;
 }
